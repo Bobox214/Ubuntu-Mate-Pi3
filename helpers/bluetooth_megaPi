@@ -1,0 +1,4 @@
+# To create a serial connection to Makeblock
+sudo rfcomm connect /dev/rfcomm0 00:0D:19:EA:22:4B 1 &
+# To connect using minicom
+sudo minicom -D /dev/rfcomm0
