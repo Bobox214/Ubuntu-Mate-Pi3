@@ -1,0 +1,18 @@
+" Indentation
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+
+" Search
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+:highlight Search ctermbg=6
+
+" File name completion
+set wildmode=list:longest
+
+" No wrapping
+set tw=0
